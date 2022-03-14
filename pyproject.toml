@@ -4,6 +4,10 @@ version = "0.1.0"
 description = ""
 authors = ["fiffeek <filipmikina@gmail.com>"]
 
+packages = [
+  { include = "app", from ="." }
+]
+
 [tool.poetry.dependencies]
 python = "^3.9"
 fastapi = "^0.75.0"
